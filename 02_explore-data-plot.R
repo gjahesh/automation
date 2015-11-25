@@ -61,10 +61,23 @@ candy_grouped_scores <- candy_tidy %>% mutate(ageGroups = age_grouper(age))%>%
 
 candy_grouped_scores %>% t %>% dist  %>% hclust %>% .$labels
 
-png("heamap_candy_age_group.png")
+png("heatmap_candy_age_group.png")
 pal <- colorRampPalette(brewer.pal(n = 9,"RdBu"))
 candy_grouped_scores %>% as.matrix %>% heatmap.2(col = pal,scale = "none", trace = "none")
 dev.off()
+
+# Trick or treat ?
+
+candy_grouped_trick <- candy_tidy %>%
+  mutate(ageGroups = age_grouper(age))%>%
+  group_by(ageGroups,trick_treat) %>% tally() %>% 
+  mutate(trick_ratio = n/sum(n)) 
+
+ggplot(candy_grouped_trick, aes(x = ageGroups, y= trick_ratio,
+                                fill = trick_treat))+
+  geom_bar(stat = "identity",position = "dodge")+
+  ggtitle("Trick or treat ratio for age groups")+ggsave("trick_treat_age_group.png")
+
 
 # Writing candy_tidy to a file
 write_csv(candy_grouped_scores,"candy_grouped_scores.csv")
