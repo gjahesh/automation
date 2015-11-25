@@ -17,4 +17,4 @@ candy_grouped_scores.csv resp_reorder_age.png heatmap_candy_age_group.png trick_
 	Rscript -e 'rmarkdown::render("$<")'
 
 clean:
-	rm -rf *.csv *.png 0*.md *.html 02_explore-data-plot-report.files
+	rm -rf *.csv *.png 0*.md *.html 03_explore-data-plot-report.files
