@@ -51,5 +51,4 @@ candy_tidy <- gather(candy_clean,"candy","joy",4:98) %>%
   mutate(joy = joy == "JOY",score = as.integer(joy))
 
 # Writing candy_tidy to a file
-
 write_csv(candy_tidy,"candy_clean.csv")
