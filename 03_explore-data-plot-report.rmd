@@ -1,5 +1,5 @@
 ---
-title: "02_explore-data-plot-report"
+title: "Candy Survey Data Wrangling and Analyzing-report"
 author: "Golnaz Jahesh"
 date: "November 25, 2015"
 output: 
@@ -61,7 +61,7 @@ The groups are calculated with in the `age_grouper` function ( please look at `0
 * Group 4: 35<Age<=44
 * Group 5: Age>=44  
 
-**Analysis :**
+**Analysis :**  
 
 It looks like the popular brands such as *kitkat*, *Twix*,*Reese_Peanut_Butter_Cups* , etc, seem to be most popular within all the age groups.  
 Some candies like *fuzy peaches* or *chicklets* are more popular among children under 10 (age group = 1). Same with *Candy from baseball card* or the *candy_that_is_clearly_just_the-suff_given_out_for_free_at_the_restaurants* are more likable by kids!
@@ -76,6 +76,7 @@ However based on the sample size i.e the number of respondents in each group the
 
 ![*Fig. 3* Trick or Treat score based on the age group](trick_treat_age_group.png)
 
-**Analysis :** 
+**Analysis :**   
+
 It looks like the maximum rate of trick or treat-ers belong to the Group 1 ( kids!) within their group, where everyone goes trick or treating! Group 2 and 4 seems to have the next high rate of trick or treat goers which is approximately , 11% of their individual population.  
 Again based on the group size the result for group#1 and group#5 is not that reliable. 
