@@ -1,7 +1,7 @@
 .PHONY: all clean
 .DELETE_ON_ERROR:
 .SECONDARY:
-all: 02_explore-data-plot-report.html
+all: 03_explore-data-plot-report.html
 
 candy_raw.csv:
 	Rscript 00_download-data.R
