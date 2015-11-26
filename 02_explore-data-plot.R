@@ -79,6 +79,6 @@ ggplot(candy_grouped_trick, aes(x = ageGroups, y= trick_ratio,
   ggtitle("Trick or treat ratio for age groups")+ggsave("trick_treat_age_group.png")
 
 
-# Writing candy_tidy to a file
+# Writing candy_grouped_scores to a file
 write_csv(candy_grouped_scores,"candy_grouped_scores.csv")
 
