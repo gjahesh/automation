@@ -1,10 +1,8 @@
-# automation
-made for homework9 automation task
 
 ### STAT547 Homework9 - Automation
 Golnaz Jahesh
 
-This project is created for [Homework9](http://stat545-ubc.github.io/hw09_automation.html#big-picture) of [STAT547](http://stat545-ubc.github.io/) course. 
+The project in this repo is created for [Homework9](http://stat545-ubc.github.io/hw09_automation.html#big-picture) of [STAT547](http://stat545-ubc.github.io/) course. 
 
 The aim is showing how to create a small-but-automated analytical pipeline using a Makefile AND using rmarkdown::render() on plain R scripts and R Markdown files, without the help of RStudio's buttons.
 
