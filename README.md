@@ -19,7 +19,7 @@ Suggested workflow is as follow:
 
 1. Clone this directory.  
 2. Start a fresh RStudio session, make sure this directory is the working directory.  
-3.Run any scripts you like interactively.  
+3. Run any scripts you like interactively.  
 4. Run any script you like at arm's length, via source() or RStudio Source button.
 5. In a shell, experiment with commands like these to cause scripts to be run:
  make `candy_raw.csv` (replace candy_raw.csv with other targets)  
