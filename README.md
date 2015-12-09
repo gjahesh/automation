@@ -17,16 +17,16 @@ The flow of the pipeline is as follow:
 
 Suggested workflow is as follow:
 
-1. Clone this directory. For example, clone the entire course repo, which includes this directory.
-2. Start a fresh RStudio session, make sure this directory is the working directory.
-3.Run any scripts you like interactively.
+1. Clone this directory.  
+2. Start a fresh RStudio session, make sure this directory is the working directory.  
+3.Run any scripts you like interactively.  
 4. Run any script you like at arm's length, via source() or RStudio Source button.
 5. In a shell, experiment with commands like these to cause scripts to be run:
-6. make `candy_raw.csv` (replace candy_raw.csv with other targets)
-7. make clean
-8. make all
+ make `candy_raw.csv` (replace candy_raw.csv with other targets)  
+ make clean  
+ make all  
 
-+ Note : You could always use Rsrudio -> Build -> Clean all/Build all if you are using the Shell.  
++ **Note** : You could always use Rsrudio -> Build -> Clean all/Build all if you are using the Shell.  
 
 
 
